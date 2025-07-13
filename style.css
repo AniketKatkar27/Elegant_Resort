@@ -1,0 +1,661 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    border: 1px solid red;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#logo {
+    width: 200px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#navbar,
+#booking {
+    display: none;
+}
+
+button {
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    color: white;
+    background-color: #C19438;
+}
+
+header {
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+
+header button {
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    background-color: #C19438;
+    color: white;
+}
+
+header button:hover {
+    color: white;
+    background-color: black;
+}
+
+#herosection {
+    /* height: 400px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#herodiv {
+    position: relative;
+}
+
+#herodiv img {
+    width: 100%;
+}
+
+#herodiv_content {
+    position: absolute;
+    color: white;
+    padding: 20px 5px;
+
+}
+
+#herodiv_content h2 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+#stay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #C19438;
+    color: white;
+    padding: 25px 15px;
+}
+
+.stay_child {
+    width: 100%;
+}
+
+.stay_child p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0px;
+}
+
+.stay_child img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+#amenities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.amenities_child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.amenities_child button {
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.amenities_child button:hover {
+    color: white;
+    background-color: black;
+}
+
+.amenities_child1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.amenities_child1 button {
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.amenities_child1 button:hover {
+    color: white;
+    background-color: black;
+}
+
+.amenities-img {
+    width: 100%;
+    height: 100%;
+}
+
+.amenities-img img {
+    width: 100%;
+}
+
+.amenities-img {
+    position: relative;
+}
+
+.amenities-txt {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+}
+
+#memorable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 15px;
+}
+
+#memorable-stay {
+    width: 100%;
+}
+
+.memorable-stay_child {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.stay_child_img {
+    width: 50px;
+}
+
+.stay_child_img img {
+    width: 100%;
+}
+
+.stay_child_txt {
+    width: 74%;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#rooms {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 15px;
+}
+
+.rooms_child1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.rooms_child {
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rooms_child img {
+    width: 100%;
+}
+
+.room_img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.room_txt {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+}
+
+#facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+#facilities_title {
+    width: 100%;
+}
+
+#facilities_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.facilities_child {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.facilities_img {
+    width: 50px;
+}
+
+.facilities_img img {
+    width: 100%;
+}
+
+.facilities_txt {
+    width: 74%;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#wedding {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+#wed_title {
+    width: 100%;
+}
+
+#wedding_img {
+    width: 100%;
+}
+
+#wedding_img img {
+    width: 100%;
+}
+
+#wedding button {
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    background-color: #C19438;
+    color: white;
+}
+
+#wedding button:hover {
+    color: white;
+    background-color: black;
+}
+
+#banquet {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 15px;
+}
+
+.banquet_child1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+
+.banquet_child {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px;
+
+}
+
+.banquet_child img {
+    width: 100%;
+}
+
+.banquet_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.banquet_txt {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 30px;
+}
+
+#footer_top {
+    width: 100%;
+    padding: 30px 5px;
+    background-color: #C19438;
+    color: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer_links1 {
+    width: 48%;
+}
+
+.footer_links {
+    width: 98%;
+}
+
+.footer_links h2,
+.footer_links1 h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.footer_links a {
+    color: white;
+    text-decoration: none;
+}
+
+#Copyright {
+    align-items: center;
+    text-align: center;
+    padding: 20px 5px;
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+#footer_logo {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_logo_child1 {
+    width: 74%;
+}
+
+.footer_logo_child2 {
+    width: 50px;
+}
+
+.footer_logo_child2 img {
+    width: 100%;
+}
+/*About.html*/
+#about,#location,#room_data,#dining,#decor,#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 15px;
+}
+.room_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 15px;
+}
+#title{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.about_child,.location_child,.room_info,.room-img,.dining_child,.decor_child,.gallery_child{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.about_child>img,.location_child>img,.room_info img,.dining_child>img,.decor_child>img{
+    width: 100%;
+}
+.gallery_child img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+@media only screen and (min-width:768px) {
+    h2 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    #booking {
+        display: block;
+    }
+
+    #herodiv_content h2 {
+        font-size: 40px;
+    }
+
+    .stay_child {
+        width: 48%;
+    }
+
+    .amenities_child {
+        width: 50%;
+    }
+
+    .amenities_child1 {
+        width: 33%;
+    }
+
+    .memorable-stay_child {
+        width: 48%;
+    }
+
+    .rooms_child1 div {
+        width: 48%;
+    }
+
+    .room_img {
+        width: 48%;
+    }
+
+    .facilities_child {
+        width: 48%;
+    }
+
+    #wedding_img {
+        width: 48%;
+        position: relative;
+    }
+
+    #wedimg2 {
+        position: absolute;
+        border: 25px solid white;
+        left: 80%;
+        top: 20%;
+    }
+
+    #wedimg3 {
+        border: 30px solid white;
+    }
+
+    #wed_title {
+        order: 1;
+    }
+
+    .wedding_txt {
+        order: 2;
+    }
+
+    #wedding_img {
+        order: 3;
+    }
+
+    .banquet_img {
+        width: 48%;
+    }
+
+    .footer_links {
+        width: 48%;
+    }
+    .room_info{
+    width: 100%;
+    }
+    .room-img,.room-info{
+        width: 48%;
+    }
+    .gallery_child{
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    header {
+        position: fixed;
+        width: 100%;
+        justify-content: space-evenly;
+        word-spacing: 10px;
+    }
+
+    #navbar {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #navbar a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    #menubar {
+        display: none;
+    }
+
+    #herodiv_content h2 {
+        font-size: 40px;
+    }
+
+    .memorable-stay_child {
+        width: 30%;
+    }
+
+    #facilities_title {
+        width: 24%;
+        word-spacing: 10px;
+        line-height: 40px;
+    }
+
+    #facilities_content {
+        width: 70%;
+    }
+
+    .room_img {
+        width: 23%;
+    }
+
+    .banquet_img {
+        width: 24%;
+    }
+
+    .wedding_txt {
+        width: 48%;
+    }
+
+    #wed_title h2 {
+        font-size: 80px;
+    }
+
+    #wedding_img {
+        width: 28%;
+    }
+
+    .footer_links1 {
+        width: 18%;
+    }
+
+    .footer_links {
+        width: 28%;
+    }
+    .about_child,.location_child{
+    width: 48%;
+}
+.room_info,.room-img{
+    width: 48%;
+}
+.dining_child{
+    width: 24%;
+}
+.decor_child{
+    width: 48%;
+}
+.gallery_child{
+    width: 30%;
+}
+}
